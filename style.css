@@ -1,0 +1,19 @@
+body{
+    background-image: url('../img/paper-1074131_1920.jpg');
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    border-width: 10px;
+    border-color: rgb(255, 51, 0) rgb(208, 255, 0) blue rgb(208, 255, 0);
+    border-style:double;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
