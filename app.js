@@ -1,11 +1,11 @@
 'use strict'
-var name =prompt("What is your name ?");
+let name =prompt("What is your name ?");
 
 alert("welcome "+ name);
-var score =0;
+let score =0;
 
 // question_1 ***********************************************
-var question_1 =prompt("Am I mechanical engineer ? (Yes/No)or(Y/N)");
+let question_1 =prompt("Am I mechanical engineer ? (Yes/No)or(Y/N)");
 
 question_1=question_1.toLocaleLowerCase();
 
@@ -18,7 +18,7 @@ if (question_1=='n' || question_1=='no'){
 // ***********************************************************
 
 // question_2 ***********************************************
-var question_2 =prompt("Am I 73 years old ? (Yes/No)or(Y/N)");
+let question_2 =prompt("Am I 73 years old ? (Yes/No)or(Y/N)");
 
 question_2=question_2.toLocaleLowerCase();
 
@@ -31,7 +31,7 @@ if (question_2=='n' || question_2=='no'){
 // ***********************************************************
 
 // question_3 ***********************************************
-var question_3 =prompt("I live in Amman (Yes/No)or(Y/N)");
+let question_3 =prompt("I live in Amman (Yes/No)or(Y/N)");
 
 question_3=question_3.toLocaleLowerCase();
 
@@ -44,7 +44,7 @@ if (question_3=='y' || question_3=='yes'){
 // ***********************************************************
 
 // question_4 ***********************************************
-var question_4 =prompt("I love programming (Yes/No)or(Y/N)");
+let question_4 =prompt("I love programming (Yes/No)or(Y/N)");
 
 question_4=question_4.toLocaleLowerCase();
 
@@ -57,7 +57,7 @@ if (question_4=='y' || question_4=='yes'){
 // ***********************************************************
 
 // question_5 ***********************************************
-var question_5 =prompt("I studied at the University of Jordan (Yes/No)or(Y/N)");
+let question_5 =prompt("I studied at the University of Jordan (Yes/No)or(Y/N)");
 
 question_5=question_5.toLocaleLowerCase();
 
@@ -74,12 +74,12 @@ if (question_5=='n' || question_5=='no'){
 
 // ****************************************** > lab3 <***********************************************
 let attempts =6;
-var guess;
+let guess;
 //***************************************************************************************************
 
 
 function check_age(age){
-    var massage ='Wrong';
+    let massage ='Wrong';
 
     if(age<=18){
         massage='Wrong! ,your guess is too low';
@@ -128,7 +128,7 @@ while(attempts>0){
 let movies =['Moonlight','The Social Network','Holy Motors','Boyhood','Get Out','Toni Erdmann','The Master','Roma','Mad Max: Fury Road','Carol'];
 
 function check_answer(a){
-    var check =false;
+    let check =false;
     for(let i=0;i<movies.length;i++){
         if(a==movies[i]){
             check=true;
